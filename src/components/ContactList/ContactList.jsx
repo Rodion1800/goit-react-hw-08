@@ -3,10 +3,10 @@ import {
   selectFilteredContacts,
   selectLoading,
   selectError,
-} from "../../redux/contacts/contactsSlice.js";
+} from "../../redux/contacts/selectors.js";
 import Contact from "../Contact/Contact";
 import css from "./ContactList.module.css";
-import { deleteContact } from "../../redux/contacts/contactsOps";
+import { deleteContact } from "../../redux/contacts/operations.js";
 
 export default function ContactList() {
   const dispatch = useDispatch();

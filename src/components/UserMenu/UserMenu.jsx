@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
-import { logout } from "../../redux/contacts/operations";
-import { selectUser } from "../../redux/auth/authSelectors";
+import { logout } from "../../redux/auth/operations";
+import { selectUser } from "../../redux/auth/selectors";
 
 export default function UserMenu() {
   const dispatch = useDispatch();

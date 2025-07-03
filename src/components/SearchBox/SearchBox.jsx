@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import { selectNameFilter, changeFilter } from "../../redux/filter/filtersSlice";
+import { selectNameFilter, changeFilter } from "../../redux/filter/slice";
 
 export default function SearchBox() {
   const dispatch = useDispatch();
