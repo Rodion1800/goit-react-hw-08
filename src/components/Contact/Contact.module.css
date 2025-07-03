@@ -1,0 +1,14 @@
+.contact_wrap {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+p {
+  margin: 5px;
+}
+.text {
+}
+svg {
+  margin-right: 5px;
+}

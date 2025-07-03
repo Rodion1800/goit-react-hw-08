@@ -1,0 +1,28 @@
+/* AppBar.module.css */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 24px;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    top: 0;
+    z-index: 1000;
+  }
+  nav {
+    display: flex;
+    gap: 20px;
+  }
+
+  header div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  header p {
+    margin: 0;
+    font-weight: 500;
+    color: red;
+  }
+  
